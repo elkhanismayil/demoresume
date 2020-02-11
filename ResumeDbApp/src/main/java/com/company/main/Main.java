@@ -16,7 +16,7 @@ import com.company.dao.inter.SkillDaoInter;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-//        CountryDaoInter dao = Context.instanceCountryDao();
-//        System.out.println(dao.getAll(1));
+        SkillDaoInter skillDao = Context.instanceSkillDao();
+        System.out.println(skillDao.getAll());
     }
 }

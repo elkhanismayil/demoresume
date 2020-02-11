@@ -15,4 +15,12 @@ import java.util.List;
 public interface UserSkillDaoInter {
     
     public List<UserSkill> getAllSkillByUserId(int userId);
+    
+    public UserSkill getById(int id);
+    
+    public boolean insertUserSkill(UserSkill us);
+    
+    public boolean updateUserSkill(UserSkill us);
+    
+    public boolean removeUserSkill(int id);
 }
