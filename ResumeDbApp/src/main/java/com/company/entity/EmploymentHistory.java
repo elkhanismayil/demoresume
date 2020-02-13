@@ -21,6 +21,7 @@ public class EmploymentHistory {
     private User user;
 
     public EmploymentHistory() {
+        
     }
 
     public EmploymentHistory(Integer id, String header, Date beginDate, Date endDate, String jobDescription, User user) {

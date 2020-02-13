@@ -16,7 +16,7 @@ import com.company.dao.inter.SkillDaoInter;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        SkillDaoInter skillDao = Context.instanceSkillDao();
-        System.out.println(skillDao.getAll());
+        EmploymentHistoryDaoInter employmentHistory = Context.instanceEmploymentHistoryDao();
+        System.out.println(employmentHistory.getAllEmploymentHistoryByUserId(7));
     }
 }
